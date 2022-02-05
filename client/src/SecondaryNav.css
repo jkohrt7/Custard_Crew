@@ -1,0 +1,45 @@
+/* Style for the inline navbar. Credit to Tobias Ahlin. */
+.secondary-nav-active {
+  position: relative;
+  color: orange;
+}
+
+.secondary-nav-active::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  transform: scaleX(1);
+  transition: transform 0.3s ease;
+}
+
+.secondary-nav {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.secondary-nav:hover {
+  color: white;
+}
+
+.secondary-nav::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.secondary-nav:hover::before {
+  transform: scaleX(1);
+}
