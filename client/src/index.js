@@ -4,11 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import App from './App';
-import About from './routes/About';
-import Crew from './routes/Crew';
-import Calendar from './routes/Calendar';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 const rootElement = document.getElementById("root");

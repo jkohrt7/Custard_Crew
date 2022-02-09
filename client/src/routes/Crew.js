@@ -10,12 +10,6 @@ import Biographies from '../text_files';
 function Crew() {
     return(
         <section className = "flex flex-col p-8 max-w-6xl mx-auto space-y-2">
-            <div className = "text-yellow-600 text-3xl text-center">
-                Members
-            </div>
-            <div className = "text-white text-4xl pb-6 text-center">
-                Meet the Crew
-            </div>
             <div className = "flex flex-col space-y-16" id = "people-container">
                 <CrewMember 
                     image = {JamesImg} 
