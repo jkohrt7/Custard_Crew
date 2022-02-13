@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://jkohrt7.github.io/react-gh-pages",
+  "homepage": "https://jkohrt7.github.io/Custard_Crew",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
