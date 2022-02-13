@@ -29,7 +29,7 @@ function Navbar(props) {
   
 
     return(
-        <nav id = "navbar-container" className = {`flex sticky justify-between top-0 z-30 px-4 h-20 -mb-20 bg-gray-700 transition ease-in-out duration-200 ` + opacityVal}>
+        <nav id = "navbar-container" className = {`flex sticky overflow-x-clip justify-between top-0 z-30 px-4 h-20 -mb-20 bg-gray-700 transition ease-in-out duration-200 ` + opacityVal}>
             {/* left side */}
             <a href = "#" className = "flex flex-row items-center gap-4 py-2">
                 <img className = "w-16" src = {ccLogo}></img>

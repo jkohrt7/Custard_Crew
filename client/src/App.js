@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div className="border-red-800 border-2">
+    <div>
       <Navbar>
         <Hamburger/>
       </Navbar>
