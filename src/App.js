@@ -31,7 +31,7 @@ function App() {
       <Hero/>
 
       <main className = "min-h-screen bg-neutral-900 flex flex-col">
-        <div className = "flex space-x-16 align-middle justify-center mt-8 p-6 mb-6 border-b-4 border-double m-auto">
+        <div className = "hidden md:flex space-x-16 align-middle justify-center mt-8 p-6 mb-6 border-b-4 border-double m-auto ">
             <NavLink to = "/" className = {({isActive}) => (isActive ? "text-2xl secondary-nav-active": "text-2xl secondary-nav")}>About</NavLink>
             <NavLink to = "/crew" className = {({isActive}) => (isActive ? "text-2xl secondary-nav-active": "text-2xl secondary-nav")}>Crew</NavLink>
             <NavLink to = "/calendar" className = {({isActive}) => (isActive ? "text-2xl secondary-nav-active": "text-2xl secondary-nav")}>Calendar</NavLink>
@@ -46,7 +46,7 @@ function App() {
             >
               
               <Routes location = {location}>
-                <Route path = "/" element = {<About/>} exact />
+                <Route path = "/Custard_Crew" element = {<About/>} exact />
                 <Route path = "/crew" element = {<Crew/>}/>
                 <Route path = "/calendar" element = {<Calendar/>}/>
               </Routes>
