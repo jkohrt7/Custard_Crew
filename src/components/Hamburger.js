@@ -21,7 +21,7 @@ function Hamburger(props) {
     }
 
     const links = [
-        {name: "About", isLocal: true, link: "/"},
+        {name: "About", isLocal: true, link: "/Custard_Crew"},
         {name: "Crew", isLocal: true, link: "/crew"},
         {name: "Calendar", isLocal: true, link: "/calendar"},
         {name: "Twitch", isLocal: false, link: "https://www.twitch.tv/custardcrew"},
