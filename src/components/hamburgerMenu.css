@@ -17,9 +17,9 @@
     padding: 1rem;
     width: 20rem;
     z-index: -1;
-    background-color: #ca8a04;
-    transition: top 0.5s;
-    transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    background-color: #374151;
+
+    transition: none;
   }
 }
 
@@ -30,7 +30,7 @@
   padding: 1rem;
   width: 20rem;
 
-  background-color: #374151;
+  background-color: #ca8a04;
   z-index: -1;
 
   transition: left 0.5s;
@@ -40,15 +40,14 @@
 @media only screen and (max-width: 640px) {
   .HamburgerMenu-open {
     position: absolute;
-    top: -2rem;
-    left: -90vw;
-    padding: 3rem;
-    width: 110vw;
+    top: -10vw;
+    left: -100vw;
+    padding: 20vw;
+    width: 120vw;
 
     background-color: #374151;
     z-index: -1;
 
-    transition: top 0.5s;
-    transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    transition: none;
   }
 }

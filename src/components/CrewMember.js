@@ -2,8 +2,8 @@ function CrewMember(props) {
     let longClass = "flex-shrink text-white text-lg leading-8 mt-16"
     return(
         <div className = "flex flex-col">
-            <div id = "person-container" className = "flex flex-row space-x-8">
-                <div id = "portrait-stats" className = "flex flex-col w-96">
+            <div id = "person-container" className = "flex flex-col md:flex-row md:space-x-8">
+                <div id = "portrait-stats" className = "flex flex-col md:w-96">
                     <div className = "text-yellow-600 text-4xl text-center pb-4">
                         {props.bio.split(" ")[0]}
                     </div>
