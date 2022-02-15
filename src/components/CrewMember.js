@@ -5,7 +5,7 @@ function CrewMember(props) {
             <div id = "person-container" className = "flex flex-col md:flex-row md:space-x-8">
                 <div id = "portrait-stats" className = "flex flex-col md:w-96">
                     <div className = "text-yellow-600 text-4xl text-center pb-4">
-                        {props.bio.split(" ")[0]}
+                        {props.name}
                     </div>
                     <img className = "border-yellow-600 border-8 " src = {props.image}></img>
                     <div className = "flex flex-row pt-4 justify-between space-x-4">

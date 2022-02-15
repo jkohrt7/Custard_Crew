@@ -2,8 +2,6 @@ import menu from '../img/menu.png';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
-
 import './hamburgerMenu.css'
 
 function Hamburger(props) {
