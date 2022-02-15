@@ -27,27 +27,29 @@ function Hamburger(props) {
         {name: "Twitch", isLocal: false, link: "https://www.twitch.tv/custardcrew"},
     ]
 
+    const linkList =  links.map((item) => {                 
+        if(item.isLocal) {
+            return(
+                <Link key = {"id_" + item.name} onClick= {moveMenu} to ={item.link} className='flex-grow border-b-white border-b-2 text-white text-2xl py-4' >
+                    {item.name}
+                </Link>
+            )
+        }
+        else {
+            return(
+                <a key = {"id_" + item.name} onClick= {moveMenu} href = {item.link} className='flex-grow border-b-white text-white text-2xl py-4'>
+                    {item.name}
+                </a>
+            )
+        }
+    })
+
     return(
         <div className='m-auto relative'>
             <img onClick = {moveMenu} className = "w-8  filter invert hover:cursor-pointer z-50" src = {menu}></img>
             <div className = {menuStyle}>
                 <div className = "flex flex-col mt-12">
-                    {links.map((item) => {
-                        if(item.isLocal) {
-                            return(
-                                <Link onClick= {moveMenu} to ={item.link} className='flex-grow border-b-white border-b-2 text-white text-2xl py-4' >
-                                    {item.name}
-                                </Link>
-                            )
-                        }
-                        else {
-                            return(
-                                <a onClick= {moveMenu} href = {item.link} className='flex-grow border-b-white text-white text-2xl py-4'>
-                                    {item.name}
-                                </a>
-                            )
-                        }
-                    })}
+                    {linkList}
                 </div>
             </div>
         </div>
