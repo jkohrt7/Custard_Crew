@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/Custard_Crew/static/css/main.fa3fcea4.css",
-    "main.js": "/Custard_Crew/static/js/main.986b57d5.js",
+    "main.css": "/Custard_Crew/static/css/main.8f332d70.css",
+    "main.js": "/Custard_Crew/static/js/main.b20047ff.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Custard_Crew/static/js/787.c4e7f8f9.chunk.js",
     "static/media/kolton.jpg": "/Custard_Crew/static/media/kolton.c0f6b2c48a895b7e6a32.jpg",
     "static/media/temp-crew.png": "/Custard_Crew/static/media/temp-crew.e9ac25b503f65ef7f946.png",
     "static/media/alex.jpg": "/Custard_Crew/static/media/alex.5da4066796bf4d200e4c.jpg",
     "static/media/CC_logo.png": "/Custard_Crew/static/media/CC_logo.9218cab36d15818c2956.png",
     "static/media/james.jpg": "/Custard_Crew/static/media/james.5550fdf81a424fb9469f.jpg",
+    "static/media/temp-crew2.png": "/Custard_Crew/static/media/temp-crew2.8431553f1ce1a8fe2ed8.png",
+    "static/media/mildly-deranged.png": "/Custard_Crew/static/media/mildly-deranged.3de39d7bd7f80d5e465a.png",
     "static/media/WBTW.jpg": "/Custard_Crew/static/media/WBTW.c99e22af8528f6f00061.jpg",
     "static/media/richie.jpg": "/Custard_Crew/static/media/richie.c881c8b1923d21c8c8fe.jpg",
     "static/media/Jared_Bio_pic.jpg": "/Custard_Crew/static/media/Jared_Bio_pic.198991e26e39eea0caca.jpg",
     "static/media/logo.svg": "/Custard_Crew/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Custard_Crew/index.html",
-    "main.fa3fcea4.css.map": "/Custard_Crew/static/css/main.fa3fcea4.css.map",
-    "main.986b57d5.js.map": "/Custard_Crew/static/js/main.986b57d5.js.map",
+    "main.8f332d70.css.map": "/Custard_Crew/static/css/main.8f332d70.css.map",
+    "main.b20047ff.js.map": "/Custard_Crew/static/js/main.b20047ff.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Custard_Crew/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa3fcea4.css",
-    "static/js/main.986b57d5.js"
+    "static/css/main.8f332d70.css",
+    "static/js/main.b20047ff.js"
   ]
 }
