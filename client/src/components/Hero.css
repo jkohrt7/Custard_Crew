@@ -1,0 +1,20 @@
+.Hero {
+  height: 48rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-attachment: fixed;
+
+  background-image: linear-gradient(
+      to right,
+      rgb(35, 35, 35),
+      rgba(35, 35, 35, 1),
+      rgba(35, 35, 35, 0.5),
+      rgba(35, 35, 35, 0)
+    ),
+    url("https://cdn.wallpapersafari.com/70/97/4ahlUd.jpg");
+
+  background-position: right;
+  background-repeat: no-repeat;
+}
